@@ -1,5 +1,6 @@
 .App {
     background-color: antiquewhite;
+    background-image: linear-gradient(blue,yellow)
 }
 
 #img {
@@ -48,6 +49,8 @@
 .divy {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOL7umQNLcN3h5c5_PJtMnWY5prK2ssravAQh9MPUEP-_RAwi9');
     height: 100vh;
+    box-shadow: 5px 10px 5px;
+    z-index: -1;
     
 }
 
