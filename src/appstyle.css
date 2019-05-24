@@ -1,0 +1,35 @@
+.App {
+    background-color: antiquewhite;
+}
+
+#img {
+    position: relative;
+    left: 50%;
+    width:200px;
+}
+/* 25C-1	
+25C-2	
+25C-3 */
+.list {
+    position: absolute;
+    right: 20px;
+}
+.span {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+/* 23D-1	
+23D-2	
+23D-3	
+23E
+23F */
+.divy {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOL7umQNLcN3h5c5_PJtMnWY5prK2ssravAQh9MPUEP-_RAwi9');
+    height: 100vh;
+    
+}
