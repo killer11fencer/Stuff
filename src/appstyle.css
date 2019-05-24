@@ -6,13 +6,25 @@
     position: relative;
     left: 50%;
     width:200px;
+    float: left;
 }
 /* 25C-1	
 25C-2	
 25C-3 */
+/* 27C	
+27D	
+27E	
+27F	
+27G	 */
 .list {
+    width: 100vh;
     position: absolute;
     right: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .span {
     position: fixed;
@@ -20,6 +32,11 @@
     color: purple;
     font-weight: 700;
     font-size: 30px;
+    padding: 30px;
+    background-color: aqua;
+    border: 5px solid red;
+    box-sizing: border-box;
+    margin-top: 50px;
 
 }
 
@@ -32,4 +49,22 @@
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOL7umQNLcN3h5c5_PJtMnWY5prK2ssravAQh9MPUEP-_RAwi9');
     height: 100vh;
     
+}
+
+/* 22C-1	#
+22C-2	.
+22C-3	" "
+22C-4	> */
+/* 22C-5	+ */
+div + p {
+    font-size: 50px;
+}
+
+div > p {
+    color: red;
+}
+div h1 {
+    color: white;
+    text-shadow: 2px 2px 5px blue;
+
 }

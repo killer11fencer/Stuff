@@ -21,6 +21,7 @@ function App() {
      {/* // 54C-2 */}
     <span className='span'> inline text cuz of span</span>
     {/* 54C-1 */}
+    <div className='divy1'><p>css selectors</p></div>
     <p>Paragraph</p>
     54C-3
     <div className='divy'>Divy</div>
